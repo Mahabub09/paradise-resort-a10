@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from 'react';
+
 import Service from '../Service/Service';
 import './Services.css'
 
 
 const Services = () => {
+
     const [services, setServices] = useState([])
     useEffect(() => {
         fetch('service.json')
@@ -24,6 +26,7 @@ const Services = () => {
                         </Service>)
                     }
                 </div>
+
             </div>
         </div>
     );
