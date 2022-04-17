@@ -6,12 +6,12 @@ import { getAuth } from 'firebase/auth'
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyCOtyOvpmilN9Kz8FFxKgjxjC5svJPLRTU",
-    authDomain: "paradise-resort-assignment10.firebaseapp.com",
-    projectId: "paradise-resort-assignment10",
-    storageBucket: "paradise-resort-assignment10.appspot.com",
-    messagingSenderId: "764459894342",
-    appId: "1:764459894342:web:bb788bb3e863ce2a5e6c47"
+    apiKey: process.env.RESCT_APP_apiKey,
+    authDomain: process.env.RESCT_APP_authDomain,
+    projectId: process.env.RESCT_APP_projectId,
+    storageBucket: process.env.RESCT_APP_storageBucket,
+    messagingSenderId: process.env.RESCT_APP_messagingSenderId,
+    appId: process.env.RESCT_APP_appId
 };
 
 // Initialize Firebase

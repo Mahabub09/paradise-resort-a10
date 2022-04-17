@@ -7,6 +7,8 @@ import { FaLinkedinIn } from "react-icons/fa"
 import { FaInstagram } from "react-icons/fa"
 
 const Footer = () => {
+    const today = new Date()
+    const year = today.getFullYear()
     return (
         <div>
             <footer>
@@ -23,7 +25,7 @@ const Footer = () => {
                     <li><a><FaInstagram></FaInstagram></a></li>
 
                 </ul>
-                <p className='text-white text-center my-3 fs-5'>Copyright©</p>
+                <p className='text-white text-center my-3 fs-5'>Copyright© . Mahabub Alam {year}</p>
             </footer>
 
         </div>
