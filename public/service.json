@@ -5,7 +5,8 @@
         "title": "Grand Turkey",
         "duration": "8DAYS",
         "price": "$2000",
-        "img": "https://i.ibb.co/3SfTjdN/Background.png"
+        "img": "https://i.ibb.co/3SfTjdN/Background.png",
+        "description": "TURKEY MOST EXCITING TRIP EXPERIENCES 7 DAYS EXCITING TRIP"
     },
     {
         "id": 2,
@@ -13,7 +14,8 @@
         "title": "Grand Spain Madrid",
         "duration": "9DAYS",
         "price": "$3000",
-        "img": " https://i.ibb.co/HLSWKW7/spain.png "
+        "img": " https://i.ibb.co/HLSWKW7/spain.png ",
+        "description": "SPAIN MOST EXCITING TRIP EXPERIENCES 8 DAYS EXCITING TRIP."
     },
     {
         "id": 3,
@@ -21,7 +23,8 @@
         "title": "Swiss Alps Trio",
         "duration": "13DAYS",
         "price": "$4000",
-        "img": "https://i.ibb.co/H7RxDJ0/austria.png"
+        "img": "https://i.ibb.co/H7RxDJ0/austria.png",
+        "description": "EUROPE MOST ROMANTIC TRIP EXPERIENCES 12 DAYS ROMANTIC TRIP."
     },
     {
         "id": 4,
@@ -29,7 +32,8 @@
         "title": "Grand Italy",
         "duration": "8DAYS",
         "price": "$3000",
-        "img": "https://i.ibb.co/qJ5VNVb/italy.png"
+        "img": "https://i.ibb.co/qJ5VNVb/italy.png",
+        "description": "ITALY MOST ROMANTIC TRIP  EXPERIENCES 7 DAYS EXCITING TRIP."
     },
     {
         "id": 5,
@@ -37,7 +41,8 @@
         "title": "UK Trip",
         "duration": "13DAYS",
         "price": "$5000",
-        "img": "https://i.ibb.co/THZ2jmY/england.png"
+        "img": "https://i.ibb.co/THZ2jmY/england.png",
+        "description": "UK MOST ROMANTIC TRIP EXPERIENCES 12 DAYS ROMANTIC TRIP."
     },
     {
         "id": 6,
@@ -45,6 +50,7 @@
         "title": "East Trip",
         "duration": "10DAYS",
         "price": "$3000",
-        "img": "https://i.ibb.co/9vV7MLS/slovenia.png"
+        "img": "https://i.ibb.co/9vV7MLS/slovenia.png",
+        "description": "EAST EUROPE MOST ROMANTIC TRIP EXPERIENCES 9 DAYS ROMANTIC TRIP."
     }
 ]
