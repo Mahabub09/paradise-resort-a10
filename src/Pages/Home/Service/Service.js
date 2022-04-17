@@ -4,13 +4,18 @@ import './Service.css';
 const Service = ({ service }) => {
     const { city, img, title, price, duration } = service
     return (
-        <div>
+        <div className='container'>
             <div className='service'>
                 <img className='w-100' src={img} alt="" />
-                <h2>{city}</h2>
-                <p>Price: {price}</p>
-                <p>{duration}</p>
-                <p><small>{title}</small></p>
+                <div className=' service-title d-flex justify-content-between align-items-center px-3 my-2'>
+                    <div><h4><i>{city}</i></h4>
+                        <h6><b>{title}</b></h6>
+                    </div>
+                    <div>
+                        <h5>{duration}</h5>
+                        <p><b>Cost: {price}</b></p>
+                    </div>
+                </div>
                 <button className='btn btn-primary'>Book: {city}</button>
             </div>
         </div>

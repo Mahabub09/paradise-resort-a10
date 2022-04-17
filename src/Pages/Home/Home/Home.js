@@ -1,7 +1,7 @@
 import React from 'react';
 import Services from '../Services/Services';
 import banner from './banner.jpg'
-import Css from './Home.css'
+import './Home.css'
 const Home = () => {
     return (
         <div >
