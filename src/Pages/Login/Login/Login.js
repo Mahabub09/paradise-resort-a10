@@ -3,12 +3,25 @@ import React, { useRef } from 'react';
 import { Form } from 'react-bootstrap';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { BiRightArrowCircle } from "react-icons/bi";
+import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
+import auth from '../../../firebase.init';
 
 const Login = () => {
     const emailRef = useRef('');
     const passwordRef = useRef('');
     const navigate = useNavigate();
     const location = useLocation();
+    let from = location.state?.from?.pathname || "/";
+    const [
+        signInWithEmailAndPassword,
+        user,
+        loading,
+        error,
+    ] = useSignInWithEmailAndPassword(auth);
+
+    if (user) {
+        navigate(Form, { replace: true });
+    }
 
     const handleSubmit = event => {
         event.preventDefault();
@@ -16,7 +29,7 @@ const Login = () => {
         const password = passwordRef.current.value;
         console.log(email, password)
 
-        // signInWithEmailAndPassword(email, password);
+        signInWithEmailAndPassword(email, password);
     }
     const navigateRegister = event => {
         navigate('/register');
