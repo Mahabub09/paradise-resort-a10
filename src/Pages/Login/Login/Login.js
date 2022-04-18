@@ -10,7 +10,6 @@ import SocialLogin from '../SocialLogin/SocialLogin';
 import { sendPasswordResetEmail } from 'firebase/auth';
 import Loading from '../../Shared/Loading/Loading';
 import { ToastContainer, toast } from 'react-toastify';
-
 import 'react-toastify/dist/ReactToastify.css';
 
 
