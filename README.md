@@ -1,5 +1,5 @@
 # Project Name: PARADISE RESORT <br></br>
-[Live Site]()
+[Live Site](https://taupe-begonia-1c6b13.netlify.app/)
  
  <li>Made a beautiful Active Navbar</li>
  <li>Shown All My trips </li>
